@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+a{
+    color: black;
+}
+nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    font-weight: 700;
+    padding: 5px 20px;
+    background-color: rgb(255, 162, 49);
+}
+.main{
+    height: 100vh;
+    background-color: white;
+    padding: 2rem;
+}
+ .input, .section, .message{
+    margin-bottom: 2rem;
+}
+.heading{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.8rem;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input p, .one p, .two p{
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    font-size: 18px;
+    padding: 0.38rem 0;
+}
+.section img{
+    max-width: 2.7rem;
+}
+select{
+    border: none;
+    padding: 3px;
+}
+.inner1, .inner2{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 8px;
+    padding: 2px;
+}
+#countries{
+    font-size: 14px;
+}
+.message{
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+.m1{
+    font-size: 21px;
+}
+.m2{
+    font-size: 13px;
+}
+button{ 
+     margin-bottom: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(189, 255, 255);
+    border-radius: 10px;
+    font-size: 17px;
+    align-self: center;
+    font-weight: 550;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+@media screen and (max-width:430px){
+    .heading{
+        font-size: 18px;
+    }
+    button{
+        width: 80%;
+    }
+}
+@media screen and (max-width:380px){
+    .heading{
+        font-size: 15.5px;
+    }
+    .section img{
+        max-width: 2.2rem;
+    }
+    .m1{
+        font-size: 19px;
+    }
+    .m2{
+        font-size: 11px;
+    }
+    .input p, .one p, .two p{
+        font-size: 18px;
+    }
+    .input, .section, .message{
+       margin-bottom: 3rem;
+   }
+}
